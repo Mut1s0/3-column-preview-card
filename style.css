@@ -1,3 +1,7 @@
+/* Google Fonts Link */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/* Custome properties */
 :root {
   --clr-primary-900: hsl (31, 77%, 52%)
   --clr-secondary-400: hsl (184, 100%, 22%)
@@ -5,6 +9,9 @@
 
   --clr-neutral-primary-400: hsla(0, 0%, 100%, 0.75)
   --clr-neutral-secondary-100: hsl(0, 0%, 95%)
+
+  --ff-deca: 'Lexend Deca', sans-serif;
+  --ff-bigshoulders: 'Big Shoulders Display', cursive;
 
   --fw-regular: 400;
   --fw-bold: 700
