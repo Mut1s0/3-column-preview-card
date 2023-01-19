@@ -100,28 +100,34 @@ body {
  /* Sedan Section Styling */
  .preview__sedan {
   background-color: var(--clr-primary-400);
-  height: 50vh;
+  /* height: 50vh; */
   padding: 2rem;
+ }
+
+ .preview__sedan > div > p {
+  font-family: var(--ff-deca);
+  color: var(--clr-neutral-400);
  }
 
 
  /* Content title styling */
  .preview__title {
   font-family: var(--ff-bigshoulders);
+  color: var(--clr-neutral-100);
  }
 
 
  /* SUVS Section styling */
  .preview__suv {
   background-color: var(--clr-secondary-500);
-  height: 50vh;
+  /* height: 50vh; */
   padding: 2rem;
  }
 
  /* Luxury Section styling */
  .preview__luxury {
   background-color: var(--clr-tertiary-200);
-  height: 50vh;
+  /* height: 50vh; */
   padding: 2rem;
  }
 
