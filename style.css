@@ -95,4 +95,16 @@ body {
  }
 
  /* Sedan Section Styling */
- 
+ .preview__sedan {
+  --content-padding: 2rem;
+
+  background-color: var(--clr-primary-400);
+  height: 50vh;
+  padding: var(--content-padding);
+ }
+
+ .preview__title {
+  font-family: var(--ff-bigshoulders);
+ }
+
+ /* SUVS Section styling */
