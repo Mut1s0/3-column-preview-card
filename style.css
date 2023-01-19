@@ -1,0 +1,73 @@
+:root {
+  --clr-primary-900: hsl (31, 77%, 52%)
+  --clr-secondary-400: hsl (184, 100%, 22%)
+  --clr-tertiary-100: hsl (179, 100%, 13%)
+
+  --clr-neutral-primary-400: hsla(0, 0%, 100%, 0.75)
+  --clr-neutral-secondary-100: hsl(0, 0%, 95%)
+
+  --fw-regular: 400;
+  --fw-bold: 700
+}
+
+/* CSS RESETS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/*
+  Typography tweaks!
+  - Add accessibility Line-height
+  - Improve text rendering
+ */
+
+ body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-size: 0.875rem;
+ }
+
+ /* Improve Media defaults */
+ img,
+ picture,
+ video,
+ canvas,
+ svg {
+  display: block;
+  max-width: 100%;
+ }
+
+ /* Remove built in form typography */
+ input,
+ button,
+ textarea,
+ select {
+  font: inherit;
+ }
+
+ /* Avoid text overflows */
+ p,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+  overflow-wrap: break-word;
+ }
+
+ /* Utilities */
+
+ /* .flex-group {} */
