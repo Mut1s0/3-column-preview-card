@@ -74,11 +74,12 @@ body {
   overflow-wrap: break-word;
  }
 
- /* Utilities */
 
+ /* Utilities */
  .flex-group {
   display: flex;
  }
+
 
  /* Gemeral Styling */
  body {
@@ -88,23 +89,31 @@ body {
   align-items: center;
  }
 
+
  /* Main card styling */
  .preview {
   max-width: 600px;
   margin: 0 auto;
  }
 
+
  /* Sedan Section Styling */
  .preview__sedan {
-  --content-padding: 2rem;
-
   background-color: var(--clr-primary-400);
   height: 50vh;
-  padding: var(--content-padding);
+  padding: 2rem;
  }
 
+
+ /* Content title styling */
  .preview__title {
   font-family: var(--ff-bigshoulders);
  }
 
+
  /* SUVS Section styling */
+ .preview__suv {
+  background-color: var(--clr-secondary-500);
+  height: 50vh;
+  padding: 2rem;
+ }
