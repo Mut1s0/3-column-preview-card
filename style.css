@@ -3,12 +3,12 @@
 
 /* Custome properties */
 :root {
-  --clr-primary-900: hsl (31, 77%, 52%)
-  --clr-secondary-400: hsl (184, 100%, 22%)
-  --clr-tertiary-100: hsl (179, 100%, 13%)
+  --clr-primary-400: hsl(31, 77%, 52%);
+  --clr-secondary-500: hsl(184, 100%, 22%);
+  --clr-tertiary-200: hsl(179, 100%, 13%);
 
-  --clr-neutral-primary-400: hsla(0, 0%, 100%, 0.75)
-  --clr-neutral-secondary-100: hsl(0, 0%, 95%)
+  --clr-neutral-400: hsla(0, 0%, 100%, 0.75);
+  --clr-neutral-100: hsl(0, 0%, 95%);
 
   --ff-deca: 'Lexend Deca', sans-serif;
   --ff-bigshoulders: 'Big Shoulders Display', cursive;
@@ -43,7 +43,6 @@ body {
  body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  font-size: 0.875rem;
  }
 
  /* Improve Media defaults */
@@ -77,4 +76,23 @@ body {
 
  /* Utilities */
 
- /* .flex-group {} */
+ .flex-group {
+  display: flex;
+ }
+
+ /* Gemeral Styling */
+ body {
+  font-size: 0.875rem;
+  background-color: var(--clr-neutral-100);
+  display: grid;
+  align-items: center;
+ }
+
+ /* Main card styling */
+ .preview {
+  max-width: 600px;
+  margin: 0 auto;
+ }
+
+ /* Sedan Section Styling */
+ 
