@@ -92,10 +92,11 @@ body {
 
  /* Main card styling */
  .preview {
-  max-width: 700px;
+  max-width: 750px;
   margin: 0 auto;
   height: 60%;
   overflow: hidden;
+  padding: 0.5rem;
  }
 
 
@@ -181,9 +182,10 @@ body {
   text-decoration: none;
   cursor: pointer;
   border: none;
-  padding: 0.5rem;
-  width: 7rem;
+  padding: 1rem;
+  width: 9.5rem;
   background-color: var(--clr-neutral-100);
+  font-family: var(--ff-deca);
 }
 
 .sedan__btn {
@@ -214,4 +216,46 @@ body {
   background-color: var(--clr-tertiary-200);
   color: var(--clr-neutral-100);
   border: 2px solid var(--clr-neutral-100);
+ }
+
+ @media (max-width: 780px) {
+  .flex-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .preview {
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 500px;
+    padding-bottom: 100px;
+  }
+
+  .preview__sedan {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0.5rem;
+    height: 50vh;
+  }
+
+  .preview__luxury {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.5rem;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .preview__suv {
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
  }
