@@ -133,6 +133,11 @@ body {
   padding: 2rem;
  }
 
+ .preview__luxury > div > p {
+  font-family: var(--ff-deca);
+  color: var(--clr-neutral-400);
+ }
+
  /* Button */
 
  button {
