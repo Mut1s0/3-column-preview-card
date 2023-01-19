@@ -117,3 +117,10 @@ body {
   height: 50vh;
   padding: 2rem;
  }
+
+ /* Luxury Section styling */
+ .preview__luxury {
+  background-color: var(--clr-tertiary-200);
+  height: 50vh;
+  padding: 2rem;
+ }
