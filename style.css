@@ -124,3 +124,26 @@ body {
   height: 50vh;
   padding: 2rem;
  }
+
+ /* Button */
+
+ button {
+  border-radius: 2rem;
+  text-decoration: none;
+  border: none;
+  padding: 0.5rem;
+  width: 7rem;
+  background-color: var(--clr-neutral-100);
+}
+
+.sedan__btn {
+  color: var(--clr-primary-400);
+ }
+
+ .suv__btn {
+  color: var(--clr-secondary-500);
+ }
+
+ .luxury__btn {
+  color: var(--clr-tertiary-200);
+ }
